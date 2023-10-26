@@ -182,8 +182,19 @@ a:visited {
 
 
 @media screen and (max-width:600px){
+
+    body{
+        margin:0;
+        display:flex;
+        justify-content:center;
+        min-width:100vw;
+        align-items:center;
+    
+    }
     .keep{
-       
+       display:flex;
+       flex-direction: row;
+
     }
     nav{
     
